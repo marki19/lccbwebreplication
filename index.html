@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Consolacion College</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <img src="LCCB-Logo.webp" alt="La Consolacion College Logo" class="header-image">
+    
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Programs</a></li>
+                <li><a href="#admission">Admission</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="slideshow-container" id="home">
+        <div class="slides fade">
+            <img src="lccpic.webp" alt="La Consolacion College Campus">
+            <div class="slide-caption">Our Beautiful Campus</div>
+        </div>
+        
+        <div class="slides fade">
+            <img src="lccmain_cover.jpg" alt="Students in Classroom">
+            <div class="slide-caption">Engaging Learning Environment</div>
+        </div>
+        
+        <div class="slides fade">
+            <img src="students.jpg" alt="Graduation Ceremony">
+            <div class="slide-caption">Celebrating Success</div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        
+        <div class="slideshow-text">
+            <h1>Excellence in Education</h1>
+            <p>Nurturing minds and building character for over 50 years. Join our community of learners today.</p>
+            <a href="#admission" class="cta-button">Apply Now</a>
+        </div>
+        
+        <div class="dots-container">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </div>
+
+    <section id="featured-video" class="section-alternate">
+        <h2>Campus Highlights</h2>
+        <p>Take a virtual tour of our campus and get to know more about the La Consolacion College experience.</p>
+        
+        <div class="video-container">
+            <div class="video-wrapper">
+                <iframe src="https://www.youtube.com/embed/zxBiJ0F82t0?autoplay=1&mute=1" 
+                        title="La Consolacion College Virtual Tour" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen></iframe>
+            </div>
+            <div class="video-text">
+                <h3>Discover LCC</h3>
+                <p>Our campus offers state-of-the-art facilities including modern classrooms, well-equipped laboratories, a comprehensive library, sports facilities, and dedicated spaces for arts and culture.</p>
+                <p>Watch this video to learn more about our academic programs, campus facilities, student life, and the values that make La Consolacion College a place where students thrive academically, socially, and spiritually.</p>
+                <a href="#about" class="text-button"><i class="fas fa-arrow-right"></i> Learn more about us</a>
+            </div>
+        </div>
+    </section>
+    
+    <section id="about">
+        <h2>About Us</h2>
+        <p>La Consolacion College is dedicated to providing holistic education that nurtures academic excellence, character development, and service to society. Founded on the principles of St. Augustine and managed by the Augustinian Sisters, our institution has been a beacon of quality education since its establishment.</p>
+        
+        <div class="features">
+            <div class="feature-box">
+                <i class="fas fa-graduation-cap feature-icon"></i>
+                <h3>Academic Excellence</h3>
+                <p>Our rigorous academic programs are designed to challenge students to reach their full potential through critical thinking and innovative learning approaches.</p>
+            </div>
+            <div class="feature-box">
+                <i class="fas fa-heart feature-icon"></i>
+                <h3>Values Formation</h3>
+                <p>We instill core values of integrity, respect, and compassion, preparing students to become ethical leaders in their communities.</p>
+            </div>
+            <div class="feature-box">
+                <i class="fas fa-users feature-icon"></i>
+                <h3>Supportive Community</h3>
+                <p>Our nurturing environment fosters personal growth, creating a sense of belonging where every student feels valued and supported.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="section-alternate">
+        <h2>Our Programs</h2>
+        <p>La Consolacion College offers a comprehensive range of academic programs designed to prepare students for their future careers and personal development. Our curriculum integrates theoretical knowledge with practical skills, ensuring graduates are ready to face real-world challenges.</p>
+        
+        <div class="features">
+            <div class="feature-box">
+                <i class="fas fa-book feature-icon"></i>
+                <h3>Basic Education</h3>
+                <p>Our K-12 program provides a strong foundation for lifelong learning, with a curriculum that balances academics, arts, and physical education.</p>
+            </div>
+            <div class="feature-box">
+                <i class="fas fa-laptop-code feature-icon"></i>
+                <h3>College Programs</h3>
+                <p>We offer diverse undergraduate programs in Education, Business, Information Technology, Hospitality Management, and more.</p>
+            </div>
+            <div class="feature-box">
+                <i class="fas fa-chart-line feature-icon"></i>
+                <h3>Graduate Studies</h3>
+                <p>Advance your career with our specialized master's programs designed for working professionals seeking to enhance their expertise.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="admission">
+        <h2>Admission</h2>
+        <p>Join our vibrant community of learners at La Consolacion College. We welcome students who are passionate about learning and personal growth. Our admission process is designed to identify students who will thrive in our academic environment and contribute positively to our community.</p>
+        
+        <div class="features">
+            <div class="feature-box">
+                <i class="fas fa-clipboard-list feature-icon"></i>
+                <h3>Requirements</h3>
+                <p>Learn about our admission requirements, including academic credentials, entrance examinations, and supporting documents needed for your application.</p>
+            </div>
+            <div class="feature-box">
+                <i class="fas fa-calendar-alt feature-icon"></i>
+                <h3>Important Dates</h3>
+                <p>Stay informed about application deadlines, entrance exam schedules, and enrollment periods for our various academic programs.</p>
+            </div>
+            <div class="feature-box">
+                <i class="fas fa-hand-holding-usd feature-icon"></i>
+                <h3>Scholarships</h3>
+                <p>Discover financial assistance opportunities available for deserving students, including academic scholarships and financial aid programs.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section-alternate">
+        <h2>Contact Us</h2>
+        <p>We're here to assist you with any questions or concerns you may have about La Consolacion College. Feel free to reach out to us through the contact form below, or visit our campus during office hours.</p>
+        
+        <div class="contact-form">
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" class="form-control" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" class="form-control" placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" class="form-control" placeholder="Enter subject">
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" class="form-control" placeholder="Enter your message"></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Send Message</button>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About LCC</h3>
+                <p>La Consolacion College is committed to providing quality education rooted in Augustinian values, preparing students to become responsible and competent members of society.</p>
+                <div class="social-links">
+                    <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul class="quick-links">
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Programs</a></li>
+                    <li><a href="#admission">Admission</a></li>
+                    <li><a href="#">Campus Life</a></li>
+                    <li><a href="#">Alumni</a></li>
+                    <li><a href="#">News & Events</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Contact Information</h3>
+                <ul class="contact-info">
+                    <li>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>123 College Avenue, City, Province, Philippines</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-phone"></i>
+                        <span>(123) 456-7890</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-envelope"></i>
+                        <span>info@lcc.edu.ph</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-clock"></i>
+                        <span>Mon-Fri: 8:00 AM - 5:00 PM</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 La Consolacion College. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <a href="#" class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
